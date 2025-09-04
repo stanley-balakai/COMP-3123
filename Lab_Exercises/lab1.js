@@ -52,7 +52,7 @@ function CapitalizeFirstLetter(sentence){
 
     function right(str) {
     if (str.length < 3) {
-        return "String length must be greater than or equal to 3"
+        return "String length must be greater than 3"
     }
     let lastThreeLetters = str.slice(-3)
     let remainingLetters = str.slice(0, -3)
